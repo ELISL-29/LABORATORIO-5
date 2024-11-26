@@ -50,6 +50,13 @@
         <fieldset>
             <legend>seguridad</legend>
 
+            <label for="usuario">USUARIO</label>
+            <input type="usuario" id="usuario" name="usuario" placeholder="EJEMPLO2@GMAIL.COM" >
+
+            <label for="password"> CONTRASEÑA</label>
+            <input type="password" id="password" name="password" placeholder="Minimo 8 caracteres" minlength="8" required pattern="(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.[\W_]).{8,}" title="La contraseña debe incluir al menos una mayúscula, una minúscula, un número y un carácter especial.">
+
+
 
         </fieldset>
             </form>
